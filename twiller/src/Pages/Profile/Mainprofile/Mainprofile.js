@@ -72,7 +72,7 @@ const Mainprofile = ({ user }) => {
     formData.set("image", image);
     axios
       .post(
-        "https://api.imgbb.com/1/upload?key=b0ea2f6cc0f276633b2a8a86d2c43335",
+        "https://api.imgbb.com/1/upload?key=1f039b8a7f5d90ca358ba774cac14964",
         formData
       )
       .then((res) => {
